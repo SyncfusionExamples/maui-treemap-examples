@@ -15,9 +15,6 @@
         public ViewModel()
         {
             this.AirportDetails = this.GetAirportDetails();
-            this.SelectionModeInfo = Enum.GetValues(typeof(Syncfusion.Maui.TreeMap.SelectionMode));
-            this.LayoutTypeInfo = Enum.GetValues(typeof(Syncfusion.Maui.TreeMap.LayoutType));
-            this.TextFormatOptionInfo = Enum.GetValues(typeof(Syncfusion.Maui.TreeMap.TextFormatOption));
         }
 
         #endregion
@@ -28,21 +25,6 @@
         /// Gets or sets the collection of airport details.
         /// </summary>
         public ObservableCollection<AirportDetails> AirportDetails { get; set; }
-
-        /// <summary>
-        /// Gets or sets the collection of layout type info.
-        /// </summary>
-        public Array LayoutTypeInfo { get; set; }
-
-        /// <summary>
-        /// Gets or sets the collection of selection mode info.
-        /// </summary>
-        public Array SelectionModeInfo { get; set; }
-
-        /// <summary>
-        /// Gets or sets the collection of text format option info.
-        /// </summary>
-        public Array TextFormatOptionInfo { get; set; }
 
         #endregion
 

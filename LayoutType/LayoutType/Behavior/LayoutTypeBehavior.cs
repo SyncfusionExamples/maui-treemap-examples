@@ -3,7 +3,7 @@
     using Syncfusion.Maui.TreeMap;
 
     /// <summary>
-    /// Behavior class for handling interactions in the GettingStarted sample view.
+    /// Behavior class for handling interactions for tree map related properties.
     /// </summary>
     internal class LayoutTypeBehavior : Behavior<ContentPage>
     {

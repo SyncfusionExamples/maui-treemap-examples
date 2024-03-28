@@ -3,7 +3,7 @@
     using System.Collections.ObjectModel;
 
     /// <summary>
-    /// Represents the view model for the getting started functionality.
+    /// Represents the view model for the treemap's layout type functionality.
     /// </summary>
     public class ViewModel
     {

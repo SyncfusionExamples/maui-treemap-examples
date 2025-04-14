@@ -19,6 +19,7 @@
                        FontAttributes="Bold"/>
         </VerticalStackLayout>
         <treemap:SfTreeMap x:Name="treeMap"
+                           x:DataType="local:ViewModel"
                                DataSource="{Binding AirportDetails}"
                                Grid.Row="1"
                                Margin="8"

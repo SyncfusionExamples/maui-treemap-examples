@@ -538,4 +538,4 @@ namespace GettingStarted
 }
 ```
 
-![Getting started](MAUI-Treemap.png)
+<img src="MAUI-Treemap.png" Height=500 />
